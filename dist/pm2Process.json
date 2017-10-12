@@ -1,0 +1,16 @@
+{
+  "apps" : [{
+    "name"           : "HHG-Lobby",
+    "script"         : "/var/www/games.hothammergames.com/nodejs_run.js",
+    "watch"          : ["/var/www/games.hothammergames.com/nodejs"],
+    "watch_options"  : {
+        "followSymlinks" : false
+    },
+    "env": {
+        "NODE_ENV"       : "development"
+    },
+    "env_production" : {
+        "NODE_ENV"       : "production"
+    }
+  }]
+}
