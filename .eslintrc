@@ -1,0 +1,11 @@
+{
+  "env": {
+    "browser": true, //I had to set browser true so the client files lint properly
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": ["error", { allow: ["log"] }]
+  }
+}
