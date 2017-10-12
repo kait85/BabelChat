@@ -1,1 +1,1 @@
-sudo pm2 start /var/www/games.hothammergames.com/pm2Process.json
+sudo pm2 start /var/www/www.website.com/pm2Process.json

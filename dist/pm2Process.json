@@ -1,8 +1,8 @@
 {
   "apps" : [{
-    "name"           : "HHG-Lobby",
-    "script"         : "/var/www/games.hothammergames.com/nodejs_run.js",
-    "watch"          : ["/var/www/games.hothammergames.com/nodejs"],
+    "name"           : "BabelChat",
+    "script"         : "/var/www/www.website.com/nodejs_run.js",
+    "watch"          : ["/var/www/www.website.com/Wayward"],
     "watch_options"  : {
         "followSymlinks" : false
     },
