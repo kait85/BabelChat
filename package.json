@@ -6,8 +6,8 @@
   "scripts": {
     "test": "mocha --require babel-register",
     "start": "nodemon lib/index.js --exec babel-node",
-    "build": "babel lib -d dist/BabelChat",
-    "serve": "node dist/BabelChat/index.js",
+    "build": "babel lib -d dist/Wayward",
+    "serve": "node dist/Wayward/index.js",
     "lint": "eslint lib"
   },
   "author": "Kaitlyn Callow",
